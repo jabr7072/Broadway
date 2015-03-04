@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+fileprop=($(ls -l $1 | head -c 4 */))
+
+echo $fileprop
+
+
+#if 
+
+#[ $fileprop = -rwx || $fileprop = drwx]; then
+#    echo "The user has read write and execute permissions"
+ #   elif [$fileprop = --wx || $fileprop
+#fi
